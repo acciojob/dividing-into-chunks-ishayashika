@@ -15,7 +15,7 @@ const divide = (arr, n) => {
 		pre+=arr[i];
 		
 	}
-	if(subarray>0){
+	if(subarray.length>0){
 		result.push(subarray);
 	}
 	return result;
